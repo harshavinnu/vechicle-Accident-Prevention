@@ -1,11 +1,3 @@
-%%
-% Samandar Khan Afridi (Gmail: samandarkhanafridi@gmail.com)
-% Subscribe to my channel: https://www.youtube.com/@samandarkhanafridi
-% For more tutorial videos
-% Like, Share and Leave a comment if you need help. Thank you!
-%%
-
-
 a=imread(uigetfile('.jpg'));  % Read an image file using the UI file picker dialog box.
 a=rgb2gray(a);  % Convert the color image to grayscale.
 figure;imshow(a);title('car');  % Display the grayscale image and title it "car".
